@@ -28,7 +28,7 @@ export default function Navigation({
         <div className="nav-bar">
           <div className="left-nav-content">
             <Link className="item logo" to="/">
-              KatMart
+              Costgo
             </Link>
             <Link
               className="item"
@@ -37,7 +37,7 @@ export default function Navigation({
                 setCategory("all");
               }}
             >
-              Shop
+              All Products
             </Link>
           </div>
           <div className="search-container">
