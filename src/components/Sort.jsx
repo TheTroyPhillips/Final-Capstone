@@ -53,7 +53,7 @@ export default function Sort({ products, setProducts, reRender, setReRender }) {
     <Form.Select
       className="sort-form"
       aria-label="sort-by"
-      size="sm"
+      size="small"
       onChange={(event) => {
         onChangeHandler(event);
       }}

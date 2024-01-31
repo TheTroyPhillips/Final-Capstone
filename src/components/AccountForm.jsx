@@ -82,7 +82,7 @@ export default function AccountForm({ setToken }) {
       <div className="acc-form-container">
         <Form className="account-form" onSubmit={onSubmitHandler}>
           <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label>Email address</Form.Label>
+            <Form.Label>Email</Form.Label>
             <Form.Control
               type="email"
               placeholder="Enter email"
@@ -118,7 +118,7 @@ export default function AccountForm({ setToken }) {
               <Form.Label>Verify Password</Form.Label>
               <Form.Control
                 type="password"
-                placeholder="Enter password again"
+                placeholder="Enter password"
                 name="password2"
                 onChange={handleChange}
               />
@@ -132,7 +132,7 @@ export default function AccountForm({ setToken }) {
           <div className="account-form-submit-container">
             {title === "Sign In" ? (
               <>
-                <Form.Text className="text-muted">Need an Account? </Form.Text>
+                <Form.Text className="text-muted">Don't have an Account? </Form.Text>
                 <Link
                   className="create-account"
                   to="/account/register"

@@ -32,7 +32,7 @@ export default function Cart({ cart, setCart, cartUpdated, setCartUpdated }) {
                 );
               })
             ) : (
-              <div>No Results Found</div>
+              <div>No Results</div>
             )}
             <div className="cart-summary">
               <p className="clear-cart" onClick={() => clearCart()}>

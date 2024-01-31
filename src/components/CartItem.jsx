@@ -60,7 +60,7 @@ export default function CartItem({
             </h5>
             <p>${product.price}</p>
             <form>
-              <label htmlFor="quantity">QTY: </label>
+              <label htmlFor="quantity">Quantity: </label>-
               <input
                 type="number"
                 id="quantity"
